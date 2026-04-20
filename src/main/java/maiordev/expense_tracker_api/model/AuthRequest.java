@@ -1,0 +1,9 @@
+package maiordev.expense_tracker_api.model;
+
+import lombok.Data;
+
+@Data
+public class AuthRequest {
+    private String username;
+    private String password;
+}

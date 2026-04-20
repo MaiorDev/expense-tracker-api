@@ -10,5 +10,5 @@ import lombok.NoArgsConstructor;
 public class GenericResponse {
     private Integer code;
     private String message;
-    private Object response;
+    private Object content;
 }
